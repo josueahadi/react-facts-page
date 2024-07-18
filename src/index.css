@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom styles for list item markers */
-.list-item-marker::marker {
-  color: #61dafb; /* Change this to your desired color */
-}

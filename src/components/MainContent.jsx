@@ -4,7 +4,7 @@ export default function Main() {
   return (
     <div className="bg-[#282D35] text-[#FFFFFF] px-5 pt-14 pb-28 relative overflow-hidden">
       <h1 className="font-bold text-4xl">Fun Facts about React</h1>
-      <ul className="text-base font-normal list-disc list-inside pt-10 px-6 space-y-3">
+      <ul className="text-lg font-normal list-disc pt-10 px-12 space-y-3 marker:text-[#61dafb] marker:pr-10">
         <li className="list-item-marker">Was first released in 2013</li>
         <li className="list-item-marker">
           Was originally created by Jordan Walke
@@ -18,7 +18,7 @@ export default function Main() {
       <img
         src="./src/assets/react-icon-big.png"
         alt=""
-        className="absolute top-16 -right-1/4 w-64"
+        className="absolute top-32 -right-1/4 w-64"
       />
     </div>
   );
