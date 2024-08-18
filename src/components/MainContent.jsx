@@ -16,7 +16,7 @@ export default function Main() {
         </li>
       </ul>
       <img
-        src="./src/assets/react-icon-big.png"
+        src="/react-icon-big.png"
         alt=""
         className="absolute top-32 -right-1/4 w-64"
       />
