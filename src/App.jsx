@@ -8,7 +8,7 @@ export default function App() {
     setDarkMode((prevMode) => !prevMode);
   }
   return (
-    <div className="container">
+    <div className="h-screen">
       <Navbar toggleDarkMode={toggleDarkMode} darkMode={darkMode} />
       <Main darkMode={darkMode} />
     </div>
