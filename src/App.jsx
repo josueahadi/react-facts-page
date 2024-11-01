@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Main from "./components/MainContent";
+import Main from "./components/Main";
 
 export default function App() {
   return (
-    <div className="w-[550px] mx-auto">
+    <div className="container">
       <Navbar />
       <Main />
     </div>
